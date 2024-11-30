@@ -1,8 +1,6 @@
-// $(function () {
 // your code here
 $(document).ready(function () {
   let currentUserId = 1;
-  // const totalUsers = 30;
 
   fetchUserData(currentUserId);
   fetchPosts(currentUserId);
