@@ -104,18 +104,6 @@ $(document).ready(function () {
     });
   }
 
-  // function displayTodos(todos) {
-  //   $(".todos ul").empty();
-  //   if (todos.length === 0) {
-  //     $(".todos ul").append($("<li>").text("There is no To Dos"));
-  //   } else {
-  //     todos.forEach((todo) => {
-  //       $("<li>").text(`${todo.completed ? "Yes" : "No"} ${todo.todo}`);
-  //       $(".todos ul").append(todos);
-  //     });
-  //   }
-  // }
-
   function displayTodos(todos) {
     const todoList = $(".todos ul");
     todoList.empty();
